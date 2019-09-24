@@ -16,15 +16,15 @@ p{
 	margin: 0 auto;
 	max-width: 960px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr) / 600px, minmax(240px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	grid-template-areas:
-	"vienas du"
-	"trys keturi"
-	"penki keturi"
-	"sesi septyni"
-	"astuoni septyni"
-	"devyni desimt"
-	"vienuolika desimt";
+	"picture name"
+	"contact educ"
+	"cont-info educ"
+	"about exp"
+	"about-txt exp"
+	"hobby ref"
+	"icons ref";
 }
 
 img{
@@ -38,56 +38,62 @@ img{
 }
 
 #item1 {
-	grid-area: vienas;
+	grid-area: picture;
 	background-color: rgb(255,202,40);
 }
 
 #item2 {
-	grid-area: du;
+	grid-area: name;
 }
 
 #item3 {
-	grid-area: trys;
+	grid-area: contact;
 	background-color: rgb(141,110,99);
+	color: rgb(255,202,40);
 	max-height: 30px;
+	text-align: center;
 }
 
 #item4 {
-	grid-area: keturi;
+	grid-area: educ;
 }
 
 #item5 {
-	grid-area: penki;
+	grid-area: cont-info;
 	background-color: rgb(255,202,40);
 }
 
 #item6 {
-	grid-area: sesi;
+	grid-area: about;
 	background-color: rgb(141,110,99);
+	color: rgb(255,202,40);
 	max-height: 30px;
+	text-align: center;
 }
 
 #item7 {
-	grid-area: septyni;
+	grid-area: exp;
 	
 }
 
 #item8 {
-	grid-area: astuoni;
+	grid-area: about-txt;
 	background-color: rgb(255,202,40);
 }
 
 #item9 {
-	grid-area: devyni;
+	grid-area: hobby;
 	background-color:rgb(141,110,99);
+	color: rgb(255,202,40);
 	max-height: 30px;
+	text-align: center;
 	}
 	
 #item10 {
-	grid-area: desimt;
+	grid-area: ref;
 }
 #item11 {
-	grid-area: vienuolika;
+	grid-area: icons;
 	background-color: rgb(255,202,40);
 }
 
@@ -95,16 +101,16 @@ img{
 	.container {
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	grid-template-areas:
-	"vienas"
-	"du"
-	"trys"
-	"penki"
-	"keturi"
-	"sesi"
-	"septyni"
-	"astuoni"
-	"desimt"
-	"devyni"
-	"vienuolika";
+	"picture"
+	"name"
+	"contact"
+	"cont-info"
+	"about"
+	"about-txt"
+	"educ"
+	"exp"
+	"ref"
+	"hobby"
+	"icons";
 	}
 }
