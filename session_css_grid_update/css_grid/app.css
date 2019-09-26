@@ -1,0 +1,68 @@
+* {
+    font-family: Helvetica;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+
+
+img{
+        display: block;
+    margin: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(141,110,99);
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*_____________________________GRID */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;   /* each fraction unit changes the width of a box... all the way to the left of the page columns*/                                      /* The number of fraction units describes the number of boxes */
+   /* grid-template-rows: 3em 3em 3em 3em 3em;  */    /* height of rows   1st/2nd/3rd.... on down*/ 
+    grid-gap:10px;
+       /* grid-template-rows: 150px 50px 250px 50px 250px 50px 150px; */
+/*   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));*/
+}
+
+
+.container div:nth-child(even){
+    background-color:orange;
+}
+
+
+.container div:nth-child(odd){
+    background-color:purple;
+}
+
+
+#one{
+     grid-row: 1/ span 6 ; /* spans based on lines */
+}
+
+
+#two{
+     grid-row: 1/ span 6 ; /* spans based on lines */
+}
+
+
+
+
