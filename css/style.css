@@ -3,28 +3,47 @@ body{
 	
 }
 h1{
-	font-family: Helvetica, sans-serif;
+	font-family: Titillium Web, sans-serif;
+	font-size: 2.5em;
+	margin-bottom:0;
 	/*color:#E85A4F;*/
 }
+
 p{
 	font-family: Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 0.8em;
 }
 h4{
-	font-family: Helvetica, sans-serif;
+	font-family: Karla, sans-serif;
+	margin-bottom: 0;
 	/*color:#E85A4F;*/
 }
+
 .name {
 	color: rgb(255,202,40);
 }
 
 .menu {
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.2em;
 	margin: 5px;
 	color: rgb(255,202,40);
 }
 
+.line {
+	border: 1px solid rgb(255,202,40);
+}
+
+/*freelance web developer H4*/
+.main {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+/* underline word */
+.freela {
+	text-decoration: underline;
+	text-decoration-color: rgb(255,202,40);
+}
 img{
 	display: block;
 	margin: 20px 20px;
@@ -37,12 +56,44 @@ img{
 	max-width: 50%;
 	height: auto;
 }
+/* icons */
+.fas.fa-graduation-cap.fa-2x {
+	display: inline;
+	padding-right: 10px;
+	color: rgb(255,202,40);
+}
+.fas.fa-briefcase.fa-2x {
+	display: inline;
+	padding-right: 10px;
+	color: rgb(255,202,40);
+}
+.fas.fa-pencil-alt.fa-2x {
+	display: inline;
+	padding-right: 10px;
+	color: rgb(255,202,40);
+}
+.fas.fa-route.fa-3x {
+	display: inline;
+	color: rgb(64,64,64);
+	padding: 20px;
+}
+.fas.fa-fish.fa-3x {
+	display: inline;
+	color: rgb(64,64,64);
+	padding: 20px;
+}
+.fas.fa-camera-retro.fa-3x {
+	display: inline;
+	color: rgb(64,64,64);
+	padding: 20px;
+}
+
 /* CSS grid */
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 0.9fr 2fr;
 	grid-template-rows: auto 30px auto 30px auto 30px auto;
 }
 
@@ -60,19 +111,19 @@ img{
 #item3 {
 	background-color: rgb(64,64,64);
 	text-align: center;
-	font-size: 20px;
 }
 /* Edu Exp Ref */
 #item4 {
 	background-color: white;
 	padding-left: 5%;
+	padding-right: 5%;
 	grid-row: 2 / 8;
 	grid-column: 2 / 3;
 }
 /* contact info */
 #item5 {
 	background-color: rgb(255,202,40);
-	padding-left: 5%;
+	padding-left: 10%;
 }
 /* about me */
 #item6 {
@@ -81,7 +132,7 @@ img{
 /* about me info */
 #item7 {
 	background-color: rgb(255,202,40);
-	padding-left: 5%;
+	padding-left: 10%;
 }
 /* hobbies */
 #item8 {
@@ -90,7 +141,7 @@ img{
 /* hobbies icons */
 #item9 {
 	background-color: rgb(255,202,40);
-	padding-left: 5%;
+	text-align: center;
 }
 
 /* media query - phones */
@@ -108,4 +159,11 @@ img{
 		#item7 {order: 6;}
 		#item8 {order: 8;}
 		#item9 {order: 9;}
+	#item2 {
+			background-color: white;
+			text-align: center;
+			padding-top: 0;
+			padding-left: 0;
 	}
+}
+	
