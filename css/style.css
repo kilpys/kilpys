@@ -44,12 +44,13 @@ h4{
 	text-decoration-color: rgb(255,202,40);
 }
 
-.eduyear{
-	display: block;
+.eduyear {
+	display: inline-block;
 }
+
 .eduhead{
 	display: inline-block;
-	margin-left: 30%;
+	margin-left: 20%;
 }
 
 img{
