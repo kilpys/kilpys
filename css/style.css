@@ -7,14 +7,6 @@ h1{
 	margin-bottom: 0;
 }
 
-
-.entry-container{
-	background-color:orange;
-}
-
-
-
-
 p{
 	font-family: Helvetica, sans-serif;
 	font-size: 0.8em;
@@ -186,3 +178,33 @@ img{
 	}
 }
 	
+
+
+	* {
+
+
+  text-align: center;
+}
+
+h3 {
+  width: 10%;
+
+}
+
+.name-this-flex-container {
+  outline-style: solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.name-this-class {
+  width: 300px;
+
+}
+
+.name-this-flex-container div {
+
+  background-color: #00BFB8;
+  outline-style: solid;
+}
