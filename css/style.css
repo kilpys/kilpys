@@ -86,17 +86,17 @@ img{
 .fas.fa-route.fa-3x {
 	display: inline;
 	color: rgb(64,64,64);
-	padding: 20px;
+	padding: 5%;
 }
 .fas.fa-fish.fa-3x {
 	display: inline;
 	color: rgb(64,64,64);
-	padding: 20px;
+	padding: 5%;
 }
 .fas.fa-camera-retro.fa-3x {
 	display: inline;
 	color: rgb(64,64,64);
-	padding: 20px;
+	padding: 5%;
 }
 
 .info-flex {
@@ -121,11 +121,28 @@ img{
 	margin-left: 3%;
 }
 
+/* bottom flex */
+.info-flex-bottom{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 5%;
+}
+
+.ul-list-bottom{
+	width: 50%;
+	text-align: center;
+}
+
+.list-body-bottom{
+	width: 50%;
+	text-align: center;
+}
 
 /* CSS grid */
 .container {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1100px;
 	display: grid;
 	grid-template-columns: 0.9fr 2fr;
 	grid-template-rows: auto 30px 15em 30px auto 30px 4rem;
