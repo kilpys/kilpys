@@ -1,22 +1,30 @@
 body{
-	background-color:rgb(64,64,64);
-	
+	background-color:rgb(64,64,64);	
 }
 h1{
 	font-family: Titillium Web, sans-serif;
-	font-size: 2.5em;
-	margin-bottom:0;
-	/*color:#E85A4F;*/
+	font-size: 3em;
+	margin-bottom: 0;
+	margin-top: 0.3em;
+}
+
+h2{
+	font-family: Karla, sans-serif;
+}
+
+h3{
+	font-family: Karla, sans-serif;
+	margin-bottom: 0;
+}
+
+h4{
+	font-family: Karla, sans-serif;
+	margin-bottom: 0;
 }
 
 p{
 	font-family: Helvetica, sans-serif;
 	font-size: 0.8em;
-}
-h4{
-	font-family: Karla, sans-serif;
-	margin-bottom: 0;
-	/*color:#E85A4F;*/
 }
 
 .name {
@@ -26,7 +34,7 @@ h4{
 .menu {
 	text-align: center;
 	font-size: 1.2em;
-	margin: 5px;
+	margin: 0.1em;
 	color: rgb(255,202,40);
 }
 
@@ -39,11 +47,14 @@ h4{
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
 /* underline word */
 .freela {
 	text-decoration: underline;
 	text-decoration-color: rgb(255,202,40);
 }
+
+
 img{
 	display: block;
 	margin: 20px 20px;
@@ -88,13 +99,36 @@ img{
 	padding: 20px;
 }
 
+.info-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.ul-list {
+	width: 35%;
+}
+
+.list {
+	font-family: Helvetica, sans-serif;
+	font-size: 0.8em;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.list-body {
+	width: 62%;
+	margin-left: 3%;
+}
+
+
 /* CSS grid */
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
 	display: grid;
 	grid-template-columns: 0.9fr 2fr;
-	grid-template-rows: auto 30px auto 30px auto 30px auto;
+	grid-template-rows: auto 30px 15em 30px auto 30px 4rem;
 }
 
 /* picture */
@@ -133,6 +167,8 @@ img{
 #item7 {
 	background-color: rgb(255,202,40);
 	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
 }
 /* hobbies */
 #item8 {
@@ -165,5 +201,13 @@ img{
 			padding-top: 0;
 			padding-left: 0;
 	}
+	h1{
+	font-family: Titillium Web, sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+	
+	
 }
 	
