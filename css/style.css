@@ -2,7 +2,7 @@ body{
 	background-color:rgb(64,64,64);	
 }
 h1{
-	font-family: Titillium Web, sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 3em;
 	margin-bottom: 0;
 	margin-top: 0.3em;
@@ -135,7 +135,6 @@ img{
 	content: '\25c9';
 	padding-right: 1em;
 	color: rgb(255,202,40);
-	list-style-position: outline;
 }
 
 .imgbullet2{
@@ -146,7 +145,6 @@ img{
 	content: '\25ce';
 	padding-right: 1em;
 	color: rgb(255,202,40);
-	list-style-position: outline;
 }
 
 
@@ -248,7 +246,7 @@ img{
 			padding-left: 0;
 	}
 	h1{
-	font-family: Titillium Web, sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 2.5em;
 	margin-bottom: 0;
 	margin-top: 0;
