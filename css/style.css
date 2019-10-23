@@ -232,17 +232,6 @@ img{
 	color: rgb(255,202,40);
 }
 
-/* mailto link */
-a:link {
-	color: rgb(255,202,40);
-	text-decoration: none;
-}
-a:hover {
-	color: white;
-	text-decoration: underline;
-}
-
-
 /* media query - phones */
 @media (max-device-width: 480px){
 	.container {
